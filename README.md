@@ -57,18 +57,18 @@ General Loan Metrics
 
 5. Average Debt-to-Income Ratio (DTI): An average to gauge borrowers' financial health.
 
-Good Loan vs. Bad Loan Metrics
+**Good Loan vs. Bad Loan Metrics**<br>
 The project requires a set of KPIs to differentiate between good and bad loans.
 
-Good Loan -- Bad Loan  
+- Good Loan -- Bad Loan  
 
-Good Loan Application Percentage -- Bad Loan Application Percentage 
+- Good Loan Application Percentage -- Bad Loan Application Percentage 
 
-Good Loan Applications -- Bad Loan Applications
+- Good Loan Applications -- Bad Loan Applications
 
-Good Loan Funded Amount -- Bad Loan Funded Amount 
+- Good Loan Funded Amount -- Bad Loan Funded Amount 
 
-Good Loan Total Received Amount -- Bad Loan Total Received Amount 
+- Good Loan Total Received Amount -- Bad Loan Total Received Amount 
 
 ---
 <h2><a class="anchor" id="data-visualizations"></a>📈 Data Visualizations</h2>
@@ -92,45 +92,46 @@ Total Loan Applications, Total Funded Amount, and Total Amount Received.
 <h2><a class="anchor" id="data-terminology"></a>📖 Data Terminology</h2>
 The following terms are used as data fields in this project, and their purpose and use for banks are defined:
 
-Loan ID: A unique identifier for each loan.
+1. Loan ID: A unique identifier for each loan.
 
-Address State: Indicates the borrower's location, helping with regional risk assessment.
+2. Address State: Indicates the borrower's location, helping with regional risk assessment.
 
-Employee Length: Provides insights into the borrower's employment stability.
+3. Employee Length: Provides insights into the borrower's employment stability.
 
-Employee Title: Specifies the borrower's occupation or job title.
+4. Employee Title: Specifies the borrower's occupation or job title.
 
-Grade: A risk classification assigned to a loan based on creditworthiness.
+5. Grade: A risk classification assigned to a loan based on creditworthiness.
 
-Sub Grade: Refines the risk assessment within a grade.
+6. Sub Grade: Refines the risk assessment within a grade.
 
-Home Ownership: Indicates the borrower's housing status, offering insights into financial stability.
+7. Home Ownership: Indicates the borrower's housing status, offering insights into financial stability.
 
-Issue Date: The loan's origination date, crucial for tracking.
+8. Issue Date: The loan's origination date, crucial for tracking.
 
-Last Credit Pull Date: The date the borrower's credit report was last accessed, used to monitor creditworthiness.
+9. Last Credit Pull Date: The date the borrower's credit report was last accessed, used to monitor creditworthiness.
 
-Last Payment Date: The most recent loan payment received, tracking payment history.
+10. Last Payment Date: The most recent loan payment received, tracking payment history.
 
-Loan Status: Indicates the current state of a loan (e.g., fully paid, current, default).
+11. Loan Status: Indicates the current state of a loan (e.g., fully paid, current, default).
 
-Next Payment Date: Estimates the date of the next loan payment, assisting in cash flow forecasting.
+12. Next Payment Date: Estimates the date of the next loan payment, assisting in cash flow forecasting.
 
-Purpose: Specifies the reason for the loan (e.g., debt consolidation, education).
+13. Purpose: Specifies the reason for the loan (e.g., debt consolidation, education).
 
-Term: Defines the duration of the loan in months.
+14. Term: Defines the duration of the loan in months.
 
-Verification Status: Indicates if the borrower's financial information has been verified.
+15. Verification Status: Indicates if the borrower's financial information has been verified.
 
-Annual Income: Reflects the borrower's total yearly earnings, assessing repayment capacity.
+16. Annual Income: Reflects the borrower's total yearly earnings, assessing repayment capacity.
 
-DTI (Debt-to-Income Ratio): Measures the borrower's debt burden relative to income. 
+17. DTI (Debt-to-Income Ratio): Measures the borrower's debt burden relative to income. 
 
-Instalment: The fixed monthly payment amount for loan repayment.
+18. Instalment: The fixed monthly payment amount for loan repayment.
 
-Interest Rate: Represents the annual cost of borrowing.
+19. Interest Rate: Represents the annual cost of borrowing.
 
-Loan Amount: The total borrowed sum.
+20. Loan Amount: The total borrowed sum.
+
 ---
 <h2><a class="anchor" id="tools--technologies"></a>🛠️ Tools & Technologies</h2>
 
@@ -143,15 +144,15 @@ Loan Amount: The total borrowed sum.
 ---
 <h2><a class="anchor" id="project-workflow"></a>⚙️ Project Workflow</h2>
 
-Data Loading: The financial_loan.xlsx dataset was loaded into the project.
+**Data Loading**: The financial_loan.xlsx dataset was loaded into the project.
 
-Data Cleaning & Transformation: Initial data cleaning and preparation steps were performed.
+**Data Cleaning & Transformation**: Initial data cleaning and preparation steps were performed.
 
-KPI Calculation: Python code was used to calculate all required KPIs, including total amounts, averages, and good vs. bad loan metrics.
+**KPI Calculation**: Python code was used to calculate all required KPIs, including total amounts, averages, and good vs. bad loan metrics.
 
-Data Visualization: Interactive charts were created to visualize key trends and insights.
+**Data Visualization**: Interactive charts were created to visualize key trends and insights.
 
-Documentation: This README file and a problem statement document were created to provide a detailed overview of the project's objectives, requirements, and findings.
+**Documentation**: This README file and a problem statement document were created to provide a detailed overview of the project's objectives, requirements, and findings.
 
 ---
 <h2><a class="anchor" id="contact"></a>📞 Contact</h2>
